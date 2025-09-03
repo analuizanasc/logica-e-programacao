@@ -10,7 +10,8 @@ function somarDoisNumeros(numero1, numero2) {
 }
 
 function calcularMediaDoisNumeros(numero1, numero2) {
-    const resultado = (numero1 + numero2) / 2;
+    const resultadoDoisVaalores = somarDoisNumeros(numero1, numero2);
+    const resultado = resultadoDoisVaalores / 2;
     return resultado;
 }
 
